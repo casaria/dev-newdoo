@@ -7,8 +7,8 @@ from openerp import api, fields, models, _
 import openerp.addons.decimal_precision as dp
 from openerp.exceptions import UserError
 from openerp.tools import float_is_zero, float_compare, DEFAULT_SERVER_DATETIME_FORMAT
-import pydevd 
-pydevd.settrace('127.0.0.1', port=7999, stdoutToServer=True, stderrToServer=True)
+#import pydevd 
+#pydevd.settrace('127.0.0.1', port=7999, stdoutToServer=True, stderrToServer=True)
 
 
 class res_company(models.Model):
